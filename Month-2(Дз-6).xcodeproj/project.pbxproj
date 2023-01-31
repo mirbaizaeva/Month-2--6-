@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		36BD91FF2987C9270082EA7D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD91FE2987C9270082EA7D /* main.swift */; };
+		36BD92062987C94B0082EA7D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD92052987C94B0082EA7D /* User.swift */; };
+		36BD92082987C9B90082EA7D /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD92072987C9B90082EA7D /* Enum.swift */; };
+		36BD920A2987CB960082EA7D /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD92092987CB960082EA7D /* DataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		36BD91FB2987C9270082EA7D /* Month-2(Дз-6) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Month-2(Дз-6)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BD91FE2987C9270082EA7D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		36BD92052987C94B0082EA7D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		36BD92072987C9B90082EA7D /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		36BD92092987CB960082EA7D /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				36BD91FE2987C9270082EA7D /* main.swift */,
+				36BD92052987C94B0082EA7D /* User.swift */,
+				36BD92072987C9B90082EA7D /* Enum.swift */,
+				36BD92092987CB960082EA7D /* DataBase.swift */,
 			);
 			path = "Month-2(Дз-6)";
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BD92062987C94B0082EA7D /* User.swift in Sources */,
 				36BD91FF2987C9270082EA7D /* main.swift in Sources */,
+				36BD920A2987CB960082EA7D /* DataBase.swift in Sources */,
+				36BD92082987C9B90082EA7D /* Enum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
